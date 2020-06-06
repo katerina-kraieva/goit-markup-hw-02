@@ -4,41 +4,56 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Web Studio</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" type="text/css" href="./css/normalize.css" />
     <link rel="stylesheet" type="text/css" href="./css/styles.css" />
   </head>
   <body>
     <header>
+      <!--Nav-->
       <nav>
-        <ul>
+        <ul class="nav list">
           <li>
-            <a href="#"> <span>Web</span> Studio</a>
+            <!--Logo-->
+            <a href="./index.html" class="logo header">
+              <span class="logo-web">Web</span> Studio</a
+            >
           </li>
           <li>
-            <a href="#">Студия</a>
+            <a href="#" class="link current">Студия</a>
           </li>
           <li>
-            <a href="#">Портфолио</a>
+            <a href="./portfolio.html" class="link">Портфолио</a>
           </li>
           <li>
-            <a href="#">Контакты</a>
+            <a href="#" class="link">Контакты</a>
           </li>
         </ul>
       </nav>
-      <address>
-        <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-        <a href="tel:+380961111111">+38 096 111 11 11</a>
+      <!--Contacts-->
+      <address class="contact">
+        <a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a>
+        <a href="tel:+380961111111" class="link">+38 096 111 11 11</a>
       </address>
     </header>
     <main>
-      <section>
-        <h1>Эффективные решения для вашего бизнеса</h1>
-        <a href="#">Заказать услугу</a>
+      <!--Hero section-->
+      <section class="hero">
+        <h1 class="title">
+          Эффективные решения <br />
+          для вашего бизнеса
+        </h1>
+        <a href="#" class="button">Заказать услугу</a>
       </section>
-      <section>
-        <h2>Наши сильные стороны</h2>
+      <!--Advantages-->
+      <section class="advantages">
+        <h2 class="hidden-title">Наши сильные стороны</h2>
         <!--этот заголовок будет скрыт в css-->
-        <ul>
+
+        <ul class="list">
           <li>
             <img src="./images/antenna.png" alt="антенна" height="70" />
             <h3>Внимание к деталям</h3>
@@ -73,9 +88,11 @@
           </li>
         </ul>
       </section>
-      <section>
+
+      <!--Products-->
+      <section class="products">
         <h2>Чем мы занимаемся</h2>
-        <ul>
+        <ul class="list">
           <li>
             <img src="./images/desctop.jpg" alt="ноутбук" width="370" />
             <h3>Десктопные приложения</h3>
@@ -94,90 +111,88 @@
           </li>
         </ul>
       </section>
-      <section>
+
+      <!--Team-->
+      <section class="team">
         <h2>Наша команда</h2>
-        <ul>
+        <ul class="list">
           <li>
-            <img src="./images/photo-smit.jpg" alt="фото Джона" width="270" />
-            <h3>John Smit</h3>
+            <img src="./images/photo-smit.jpg" alt="фото Николая" width="270" />
+            <h3>Николай Кучеренко</h3>
             <p>Product Designer</p>
-            <ul>
+            <ul class="list">
               <li>
-                <a href="#" aria-label="Instagram">Instagram</a>
+                <a href="#" aria-label="Instagram" class="link">Instagram</a>
               </li>
               <li>
-                <a href="#" aria-label="Twitter">Twitter</a>
+                <a href="#" aria-label="Twitter" class="link">Twitter</a>
               </li>
               <li>
-                <a href="#" aria-label="facebook">facebook</a>
+                <a href="#" aria-label="facebook" class="link">facebook</a>
               </li>
               <li>
-                <a href="#" aria-label="LinkedIn">LinkedIn</a>
+                <a href="#" aria-label="LinkedIn" class="link">LinkedIn</a>
               </li>
             </ul>
           </li>
           <li>
             <img
               src="./images/photo-stewart.jpg"
-              alt="фото Марты"
+              alt="фото Ольги"
               width="270"
             />
-            <h3>Marta Stewart</h3>
+            <h3>Ольга Иванова</h3>
             <p>Frontend Developer</p>
-            <ul>
+            <ul class="list">
               <li>
-                <a href="#" aria-label="Instagram">Instagram</a>
+                <a href="#" aria-label="Instagram" class="link">Instagram</a>
               </li>
               <li>
-                <a href="#" aria-label="Twitter">Twitter</a>
+                <a href="#" aria-label="Twitter" class="link">Twitter</a>
               </li>
               <li>
-                <a href="#" aria-label="facebook">facebook</a>
+                <a href="#" aria-label="facebook" class="link">facebook</a>
               </li>
               <li>
-                <a href="#" aria-label="LinkedIn">LinkedIn</a>
+                <a href="#" aria-label="LinkedIn" class="link">LinkedIn</a>
               </li>
             </ul>
           </li>
           <li>
-            <img
-              src="./images/photo-jakis.jpg"
-              alt="фото Роберта"
-              width="270"
-            />
-            <h3>Robert Jakis</h3>
+            <img src="./images/photo-jakis.jpg" alt="фото Андрея" width="270" />
+            <h3>Андрей Шевченко</h3>
             <p>Marketing</p>
-            <ul>
+            <ul class="list">
               <li>
-                <a href="#" aria-label="Instagram">Instagram</a>
+                <a href="#" aria-label="Instagram" class="link">Instagram</a>
               </li>
               <li>
-                <a href="#" aria-label="Twitter">Twitter</a>
+                <a href="#" aria-label="Twitter" class="link">Twitter</a>
               </li>
               <li>
-                <a href="#" aria-label="facebook">facebook</a>
+                <a href="#" aria-label="facebook" class="link">facebook</a>
               </li>
               <li>
-                <a href="#" aria-label="LinkedIn">LinkedIn</a>
+                <a href="#" aria-label="LinkedIn" class="link">LinkedIn</a>
               </li>
             </ul>
           </li>
           <li>
-            <img src="./images/photo-doe.jpg" alt="фото Мартина" width="270" />
-            <h3>Martin Doe</h3>
+            <img src="./images/photo-doe.jpg" alt="фото Ивана" width="270" />
+            <h3>Иван Николаев</h3>
             <p>UI Designer</p>
-            <ul>
+            <ul class="list">
               <li>
-                <a href="#" aria-label="Instagram">Instagram</a>
+                <a href="#" aria-label="Instagram" class="link">Instagram</a>
               </li>
               <li>
-                <a href="#" aria-label="Twitter">Twitter</a>
+                <a href="#" aria-label="Twitter" class="link">Twitter</a>
               </li>
               <li>
-                <a href="#" aria-label="facebook">facebook</a>
+                <a href="#" aria-label="facebook" class="link">facebook</a>
               </li>
               <li>
-                <a href="#" aria-label="LinkedIn">LinkedIn</a>
+                <a href="#" aria-label="LinkedIn" class="link">LinkedIn</a>
               </li>
             </ul>
           </li>
@@ -186,7 +201,7 @@
 
       <section>
         <h2>Постоянные клиенты</h2>
-        <ul>
+        <ul class="list">
           <li>
             <a href="#"><img src="./images/logo1.svg" alt="Компания 1" /></a>
           </li>
@@ -208,38 +223,43 @@
         </ul>
       </section>
     </main>
-    <footer>
+    <footer class="footer-color">
       <div>
-        <a href="#"> <span>Web</span> Studio</a>
-        <address>
+        <a href="./index.html" class="logo footer-color-text">
+          <span class="logo-web">Web</span> Studio</a
+        >
+        <address class="address footer-color-text">
           г. Киев, пр-т Леси Украинки, 26 <br />
-          <a href="mailto:info@devstudio.com">info@devstudio.com</a> <br />
-          <a href="tel:+380961111111">+38 096 111 11 11</a>
+          <a href="mailto:info@devstudio.com" class="link"
+            >info@devstudio.com</a
+          >
+          <br />
+          <a href="tel:+380961111111" class="link">+38 096 111 11 11</a>
         </address>
       </div>
       <div>
-        <b>присоединяйтесь</b>
-        <ul>
+        <p class="footer-color-text footer-text">Присоединяйтесь</p>
+        <ul class="list">
           <li>
-            <a href="#" aria-label="Instagram">Instagram</a>
+            <a href="#" aria-label="Instagram" class="footer-link">Instagram</a>
           </li>
           <li>
-            <a href="#" aria-label="Twitter">Twitter</a>
+            <a href="#" aria-label="Twitter" class="footer-link">Twitter</a>
           </li>
           <li>
-            <a href="#" aria-label="facebook">facebook</a>
+            <a href="#" aria-label="facebook" class="footer-link">facebook</a>
           </li>
           <li>
-            <a href="#" aria-label="LinkedIn">LinkedIn</a>
+            <a href="#" aria-label="LinkedIn" class="footer-link">LinkedIn</a>
           </li>
         </ul>
       </div>
 
       <div>
-        <b>Подпишитесь на рассылку</b>
+        <p class="footer-color-text footer-text">Подпишитесь на рассылку</p>
         <!--форма подписки на рассылку-->
       </div>
-      <p>2020 | Developed by GoIT Students</p>
+      <p class="developed-by">2020 | Developed by GoIT Students</p>
     </footer>
   </body>
 </html>
